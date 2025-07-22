@@ -19,8 +19,21 @@
   --text-twelve--font-weight: 700;
 
   --my-font-size: 100px;
+
+  --font-weight-extrablack: 1000;
+  --font-400: 900;
+
+  --tracking-custom-letter-spacing: 10px;
+  --custom-letter-spacing: 20px;
+
+  --custom-line-clamping: 2;
+
 }
 
+
+body {
+
+}
 /* 
 
   namespaces for defining different variables in tailwindcss
