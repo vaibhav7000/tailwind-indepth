@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 @import "tailwindcss";
 
@@ -12,13 +15,47 @@
   --font-sofia-pro: "Sofia", cursive;
   --personal-font:  "Bitcount Prop Single", system-ui;
 
+  --font-Nunito: "Intel One Mono", monospace;
+  --custom-font-bebas: "Bebas Neue", sans-serif;
+
   --text-twelve: 12px;
   /* these value of line-height, font-weight and letter-spacing gets automatically applied when the font-size of twelve is applied to the any element */
   --text-twelve--line-height: 10px;
   --text-twelve--letter-spacing: 10px;
   --text-twelve--font-weight: 700;
 
+  /* giving font-size + line-height letter-spacing and font-weight */
+  --text-fourty: 50px;
+  --text-fourty--line-height: 100px;
+  --text-fourty--letter-spacing: 30px;
+  --text-fourty--font-weight: 100px;
+
+  /* custom font-size without name-spaces */
+  --custom-font-size-20: 20px;
   --my-font-size: 100px;
+
+  /* custom font-weight with nameapce */
+  --font-weight-four: 400;
+  --font-weight-six: 600;
+  --font-weight-three: 300;
+
+  /* custom font-weight without namespace */
+  --custom-fw-400: 400;
+  --custom-fw-900: 900;
+
+  /* tracking / letter-spacing with name-space */
+  --tracking-custom-space-10: 10px;
+  --tracking-space-40: 40px;
+
+  /* tracking / letter-spacing without namespace */
+  --letter-spacing-50: 50px;
+
+  /* Line-clamp variable without namespace */
+  --clamp-3: 3;
+
+
+  /* line-height without name-space */
+  --height-line-custom-40: 40px;
 
   --font-weight-extrablack: 1000;
   --font-400: 900;
@@ -28,6 +65,13 @@
 
   --custom-line-clamping: 2;
 
+  --line-height-20: 20;
+  --text-twenty-size: 20px;
+
+  --built-points: disc
+
+
+  --vite-logo: url(./assets/vite.svg);
 }
 
 

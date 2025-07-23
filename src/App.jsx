@@ -1,3 +1,5 @@
+
+
 export default function App() {
 
   return (
@@ -29,6 +31,34 @@ export default function App() {
       <div className="w-[100px] bg-red-200 aspect-square line-clamp-none sm:line-clamp-4 md:line-clamp(--custom-line-clamping)">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ab rem quam, iste debitis voluptate hic at consequuntur, omnis explicabo provident aut, quia laboriosam unde blanditiis maxime corporis asperiores harum.
       </div>
+    </div>
+
+    <div className="text-2xl/4 sm:text-twenty-size/(--line-height-20) sm:text-red-500 md:leading-0 lg:leading-1 xl:leading-10">
+      Line-height
+    </div>
+
+    <div>
+      Lists with icons as points
+      <ul className="list-image-[url(./assets/react.svg)] sm:list-image-(--vite-logo) md:list-image-none">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </div>
+
+    <div>
+      Lists with different points
+      <ul className="list-disc list-inside">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+      </ul>
+
+      <ul className="list-decimal list-outside sm:list-(--built-points)">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+      </ul>
     </div>
 
     </div>
