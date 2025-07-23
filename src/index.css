@@ -57,6 +57,13 @@
   /* line-height without name-space */
   --height-line-custom-40: 40px;
 
+  /* colors with name-space */
+  --color-primary-color: rgb(129, 129, 214);
+  --color-primary-color-btn: rgb(200, 209, 14);
+
+  /* colors without namespace */
+  --primaryColor: rgb(100,200, 50);
+
   --font-weight-extrablack: 1000;
   --font-400: 900;
 

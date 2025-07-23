@@ -35,6 +35,10 @@ export default function AppMain() {
                 Font-size with line-height
             </div>
 
+            <div className="underline sm:overline md:line-through decoration-red-400 sm:decoration-zinc-500 text-primary-color sm:text-primary-color-btn md:text-(--primaryColor) decoration-solid md:decoration-red-600 md:decoration-double lg:decoration-dashed xl:decoration-dotted 2xl:decoration-wavy">
+                text-decoration
+            </div>
+
 
         </div>
     )
