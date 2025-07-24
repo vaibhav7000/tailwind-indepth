@@ -64,6 +64,22 @@
   /* colors without namespace */
   --primaryColor: rgb(100,200, 50);
 
+  /* width variables without namespace */
+  --custom-width-95: 95%;
+
+
+  /* for basis utility without name-space */
+  --intial-size-full: 100%;
+
+
+  /* Defining breakpoints with namespace */
+  --breakpoint-sm-601: 601px;
+  --breakpoint-sm-481: 481px;
+  --breakpoint-sm-391: 391px;
+
+  --color-custom-white: white;
+  --color-custom-black: black;
+
   --font-weight-extrablack: 1000;
   --font-400: 900;
 
