@@ -2,7 +2,23 @@ import { useMemo } from "react"
 
 export default function BentoBlocks({bentoBlock = 8 }) {
    
-    
+    const content = [{
+        src: "https://res.cloudinary.com/roundglass/image/upload/w_1000,c_fill,g_face,f_jpg,f_auto/v1751644228/rg/collective/media/get-to-us-get-involved-1751644228044.jpg"
+    }, {
+        src: "https://res.cloudinary.com/roundglass/image/upload/w_1000,c_fill,g_face,f_jpg,f_auto/v1751644228/rg/collective/media/get-to-us-get-involved-1751644228044.jpg"
+    }, {
+        src: "https://res.cloudinary.com/roundglass/image/upload/w_1000,c_fill,g_face,f_jpg,f_auto/v1751644228/rg/collective/media/get-to-us-get-involved-1751644228044.jpg"
+    }, {
+        src: "https://res.cloudinary.com/roundglass/image/upload/w_1000,c_fill,g_face,f_jpg,f_auto/v1751644228/rg/collective/media/get-to-us-get-involved-1751644228044.jpg"
+    }, {
+        src: "https://res.cloudinary.com/roundglass/image/upload/w_1000,c_fill,g_face,f_jpg,f_auto/v1751644228/rg/collective/media/get-to-us-get-involved-1751644228044.jpg"
+    }, {
+        src: "https://res.cloudinary.com/roundglass/image/upload/w_1000,c_fill,g_face,f_jpg,f_auto/v1751644228/rg/collective/media/get-to-us-get-involved-1751644228044.jpg"
+    }, {
+        src: "https://res.cloudinary.com/roundglass/image/upload/w_1000,c_fill,g_face,f_jpg,f_auto,f_auto,f_auto,f_auto,f_auto,f_auto,f_auto/v1753355416/rg/collective/media/travel-2-jellyfish-diver-people-_dsc8706-1753355415815.jpg"
+    }, {
+        src: "https://res.cloudinary.com/roundglass/image/upload/w_1000,c_fill,g_face,f_jpg,f_auto/v1751644228/rg/collective/media/get-to-us-get-involved-1751644228044.jpg"
+    }]
 
     const allImages = useMemo(function() {
         if(content.length <= bentoBlock) {
